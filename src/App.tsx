@@ -10,18 +10,16 @@ import InstructionsPage from './components/InstructionsPage'
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <Router>
-          <Switch>
-            <Route path="/ar-team-website" element={<Home />} />
-            <Route
-              path="/SRC_Website_React/entry"
-              element={<InstructionsPage />}
-            />
-            <Route path="/test" element={<>test</>} />
-          </Switch>
-        </Router>
-      </header>
+      <Router>
+        <Switch>
+          <Route path="/ar-team-website" element={<Home />} />
+          <Route
+            path="/ar-team-website/InstructionsPage"
+            element={<InstructionsPage />}
+          />
+          <Route path="/test" element={<>test</>} />
+        </Switch>
+      </Router>
     </div>
   )
 }
