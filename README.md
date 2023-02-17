@@ -1,3 +1,7 @@
+# Website is hosted here
+
+[https://alexhappycode.github.io/ar-team-website](https://alexhappycode.github.io/ar-team-website)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
